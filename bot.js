@@ -201,7 +201,7 @@ client.on('message', message => {
 
 client.on('message', async message =>{
   if (message.author.boss) return;
-	var prefix = "*";
+	var prefix = "-";
 
 if (!message.content.startsWith(prefix)) return;
 	let command = message.content.split(" ")[0];
